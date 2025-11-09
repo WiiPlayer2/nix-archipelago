@@ -5,7 +5,7 @@
 }:
 let
   pname = "archipelago-appimage";
-  version = "0.5.0";
+  version = "0.6.4";
   icon = fetchurl {
     url = "https://raw.githubusercontent.com/ArchipelagoMW/Archipelago/${version}/data/icon.png";
     hash = "sha256-VbjpZBBs3i9Sg56btc3M65XkJ9zgCnGJKxFskRGOknM=";
@@ -23,7 +23,7 @@ appimageTools.wrapType2 {
 
   src = fetchurl {
     url = "https://github.com/ArchipelagoMW/Archipelago/releases/download/${version}/Archipelago_${version}_linux-x86_64.AppImage";
-    hash = "sha256-Dw5BBfCthB9xUJXYmnmIwmqlT/L24QZnKyELLjPGNRA=";
+    hash = "sha256-7yzRYLmrOuiubXOu/ljuBsWvphdJ+07v0LJD0Ae8BTQ=";
   };
 
   extraInstallCommands = ''
